@@ -15,10 +15,15 @@ body {
 }
 
 .wrapper {
-  max-width: 900px;      /* 控制内容宽度 */
-  padding: 30px 20px;    /* 内边距 */
-  margin-left: 40px;     /* 整体靠左 */
+  max-width: 860px;
+  margin: 50px auto;
+  padding: 0 20px;  /* 防止小屏贴边 */
 }
+
+<!--.wrapper {
+  width:860px;
+  margin:0 auto;
+} -->
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
@@ -67,11 +72,6 @@ a small {
 a:hover small {
   color:#777;
 }
-
-<!--.wrapper {
-  width:860px;
-  margin:0 auto;
-} -->
 
 blockquote {
   border-left:1px solid #e5e5e5;
